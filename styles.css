@@ -1,0 +1,172 @@
+/* Importar la fuente de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&display=swap');
+
+/* Estilos generales */
+body {
+    font-family: "Encode Sans", sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #ccc;
+    color: #fff;
+    padding: 8px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.links {
+    display: flex;
+}
+
+.link {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 30px;
+}
+
+/* Tarjetas */
+.card-container {
+    margin: 20px auto 40px;
+    display: grid;
+    gap: 20px;
+}
+
+.card {
+    background-color: #ecebeb;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 300px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card p {
+    font-size: 16px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+/* Formulario de contacto */
+#contact-form {
+    background-color: #ecebeb;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 300px;
+    box-sizing: border-box;
+    margin: 0 auto 20px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+}
+
+#contact-form h2 {
+    margin-bottom: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#contact-form textarea {
+    height: 120px;
+}
+
+#contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+    margin-top: auto;
+}
+
+/* Media queries */
+@media only screen and (min-width: 768px) {
+    /* Tablet */
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    /* Desktop */
+    .card-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    h1 {
+        font-size: 45px;
+    }
+}
