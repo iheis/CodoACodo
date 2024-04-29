@@ -16,6 +16,10 @@ header {
     padding: 8px;
 }
 
+.logo{
+    width: 50px; height: 50px
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -24,6 +28,9 @@ header {
     background-color: #333;
     color: #fff;
     border-radius: 6px;
+}
+.title{
+    display: none;
 }
 
 .links {
@@ -45,6 +52,9 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+main h1{
+    font-size: 20px;
 }
 
 h1 {
@@ -156,17 +166,38 @@ footer {
 /* Media queries */
 @media only screen and (min-width: 768px) {
     /* Tablet */
+    .logo{
+        width: 70px; height: 70px
+    }
+    main h1{
+        font-size: 35px;
+    }
     .card-container {
         grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .title{
+        display: inline;
     }
 }
 
 @media only screen and (min-width: 992px) {
     /* Desktop */
+    .logo{
+        width: 80px; height: 80px
+    }
+    main h1{
+        font-size: 45px;
+    }
+
     .card-container {
         grid-template-columns: repeat(3, 1fr);
     }
     h1 {
         font-size: 45px;
+    }
+
+    .title{
+        display: inline;
     }
 }

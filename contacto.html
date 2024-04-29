@@ -1,59 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Proyecto Cordoba | Contacto</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <nav class="navbar">
-        <a href="index.html">
-          <img
-            src="img/logo.png"
-            alt="Logo"
-            style="width: 80px; height: 80px"/>
-        </a>
-        <div>
-            <h2>Proyecto Cordoba</h2>
-        </div>
-        <div class="links">
-          <a href="index.html" class="link">Inicio</a>
-          <a href="contacto.html" class="link">Contacto</a>
-        </div>
-      </nav>
-    </header>
 
-    <main>
-        <h1>Formulario de Contacto</h1>
-      <div class="container">
-        <section id="contact-form">
-         
-          <form>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyecto Cordoba | Contacto</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required />
-
-            <label for="telefono">Teléfono:</label>
-            <input type="tel" id="telefono" name="telefono" />
-
-            <label for="asunto">Asunto:</label>
-            <input type="text" id="asunto" name="asunto" />
-
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
-
-            <button type="submit">Enviar</button>
-          </form>
-        </section>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html">
+        <img class="logo" src="img/logo.png" alt="Logo" />
+      </a>
+      <div class="title">
+        <h2>Proyecto Cordoba</h2>
       </div>
-    </main>
+      <div class="links">
+        <a href="index.html" class="link">Inicio</a>
+        <a href="contacto.html" class="link">Contacto</a>
+      </div>
+    </nav>
+  </header>
 
-    <footer>
-      <p>Codo a Codo | Trabajo Práctico | Grupo 13 | 2024 &copy;</p>
-    </footer>
-  </body>
+  <main>
+    <h1>Formulario de Contacto</h1>
+    <div class="container">
+      <section id="contact-form">
+        <form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" id="telefono" name="telefono" />
+
+          <label for="asunto">Asunto:</label>
+          <input type="text" id="asunto" name="asunto" />
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>Codo a Codo | Trabajo Práctico | Grupo 13 | 2024 &copy;</p>
+  </footer>
+</body>
+
 </html>
