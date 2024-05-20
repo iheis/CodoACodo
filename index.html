@@ -1,150 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto Cordoba | Inicio</title>
+    
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Proyecto Cordoba | Inicio</title>
-  <link rel="stylesheet" href="styles.css" />
-  <!--archivo CSS-->
-  <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
-</head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img class="logo" src="img/logo.png" alt="Logo" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#oficinas">Oficinas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#nosotros">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#reseñas">Reseñas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h1>Inicio</h1>
+      <section class="card-section">
+        <div class="card-container">
+          <div class="card">
+            <h3>Flora</h3>
+            <img src="img/flora.jpg" alt="Flora" />
+            <p>
+              La flora de Córdoba, Argentina, es diversa y resistente. Los
+              imponentes quebrachos blancos y colorados dominan los bosques,
+              mientras que el chañar y el algarrobo salpican las llanuras con su
+              verdor espinoso. La humilde jarilla y las coloridas margaritas
+              completan el paisaje, recordándonos la belleza y la fortaleza de
+              la naturaleza cordobesa.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Fauna:</h3>
+            <img src="img/fauna.jpg" alt="Fauna" />
+            <p>
+              La fauna de Córdoba, Argentina, es diversa y fascinante. Desde el
+              majestuoso cóndor andino en las sierras hasta el sigiloso puma en
+              los bosques, cada rincón alberga vida única. En las llanuras, el
+              guanaco y el ñandú deambulan libremente, mientras que aves como el
+              cardenal y el hornero llenan el aire con su canto. Las serpientes,
+              como la yarará y el coral, completan este ecosistema,
+              recordándonos la riqueza y la intriga de la fauna cordobesa.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Turismo:</h3>
+            <img src="img/turismo.jpg" alt="Turismo" />
+            <p>
+              Córdoba, Argentina, un destino turístico cautivador con historia,
+              naturaleza y cultura. Desde las imponentes Sierras hasta las
+              encantadoras ciudades coloniales como Villa General Belgrano, cada
+              lugar ofrece una experiencia única. Ruinas jesuíticas, actividades
+              al aire libre y gastronomía variada esperan a los visitantes en
+              esta tierra de hospitalidad cálida y auténtica esencia argentina.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Pesca:</h3>
+            <img src="img/pesca.jpg" alt="Pesca" />
+            <p>
+              En Córdoba, Argentina, la pesca es una experiencia única. Desde la
+              emoción de atrapar truchas en el Río de los Espinillos hasta la
+              calma de pescar dorados en el embalse San Roque, cada lugar ofrece
+              oportunidades únicas para conectar con la naturaleza. Con guías
+              expertos y una variedad de especies, la pesca en Córdoba promete
+              recuerdos duraderos y nuevas aventuras en cada lance.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Arquitectura:</h3>
+            <img src="img/arquitectura.jpg" alt="Arquitectura" />
+            <p>
+              Los callejones empedrados y las fachadas encaladas de las ciudades
+              coloniales como Alta Gracia y Jesús María transportan a los
+              visitantes a épocas pasadas. La arquitectura colonial de Córdoba
+              es un testimonio vivo del legado histórico de la región, con
+              iglesias barrocas, casonas señoriales y antiguas estancias que
+              narran las historias de quienes las habitaron.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Gastronomía:</h3>
+            <img src="img/gastronomia.jpg" alt="Gastronomia" />
+            <p>
+              La gastronomía de Córdoba es un festín para los sentidos, con
+              platos que fusionan las tradiciones criollas con influencias
+              europeas e indígenas. Desde el famoso asado argentino hasta las
+              delicias regionales como el locro y los tamales, cada bocado es
+              una experiencia que refleja la diversidad cultural y culinaria de
+              la provincia.
+            </p>
+          </div>
+        </div>
+        <hr />
+      </section>
+      <section class="office-section">
+        <h2>Oficinas</h2>
+        <div class="map-container" id="oficinas">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14409.214124789947!2d-64.18689128351855!3d-31.41263117764107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942e1273509e416f%3A0x5e5e2d61e086d287!2sC%C3%B3rdoba%2C%20Argentina!5e0!3m2!1sen!2sus!4v1620917402560!5m2!1sen!2sus"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+        <hr />
+      </section>
 
-<body>
-  <header>
-    <nav class="navbar">
-      <a href="index.html">
-        <img class="logo" src="img/logo.png" alt="Logo" />
-      </a>
-      <div class="title">
-        <h2>Proyecto Cordoba</h2>
-      </div>
-      <div class="links">
-        <a href="index.html" class="link">Inicio</a>
-        <a href="contacto.html" class="link">Contacto</a>
-      </div>
-    </nav>
-  </header>
+      <section class="about-us-section" id="nosotros">
+        <h2>Nosotros</h2>
+        <p>
+          Somos una empresa de turismo dedicada a acercar los lugares más
+          emblemáticos de la ciudad de Córdoba a visitantes locales y
+          extranjeros. Con más de 30 años de trayectoria en el sector, nos
+          enorgullece ofrecer experiencias únicas y memorables que permiten a
+          nuestros clientes descubrir la riqueza cultural, histórica y natural
+          de nuestra ciudad.
+        </p>
+        <p>
+          Nuestro equipo está formado por profesionales apasionados por el
+          turismo y comprometidos con brindar un servicio de calidad, adaptado a
+          las necesidades y preferencias de cada viajero. Desde la planificación
+          de itinerarios hasta la atención personalizada durante los recorridos,
+          nos esforzamos por garantizar una experiencia enriquecedora y
+          satisfactoria para todos nuestros clientes.
+        </p>
+        <p>
+          Ya sea explorando los encantadores rincones del casco histórico,
+          disfrutando de la gastronomía local o admirando la belleza de los
+          paisajes naturales, nuestro objetivo es hacer que cada visita a
+          Córdoba sea inolvidable y llena de momentos especiales.
+        </p>
+        <hr />
+      </section>
 
-  <main>
-    <h1>Inicio</h1>
-    <div class="card-container">
-      <section class="card">
-        <h3>Flora</h3>
-        <img src="img/flora.jpg" alt="Flora" />
-        <p>
-          La flora de Córdoba, Argentina, es diversa y resistente. Los
-          imponentes quebrachos blancos y colorados dominan los bosques,
-          mientras que el chañar y el algarrobo salpican las llanuras con su
-          verdor espinoso. La humilde jarilla y las coloridas margaritas
-          completan el paisaje, recordándonos la belleza y la fortaleza de la
-          naturaleza cordobesa..
-        </p>
+      <!-- Sección de Reseñas -->
+      <section class="reviews-section" id="reseñas">
+        <h2>Reseñas</h2>
+        <div class="review-container">
+          <div class="review-card">
+            <img src="img/av1.png" alt="Reseña 1" />
+            <p>
+              <i
+                >🌟🌟🌟🌟🌟 <br />
+                "La mejor experiencia turística que he tenido en Córdoba gracias
+                a Proyecto Córdoba. La empresa organizó todo de manera impecable
+                y el guía fue muy amable y conocedor de la historia local. ¡Los
+                recomiendo altamente!" - Sofía R.</i
+              >
+            </p>
+          </div>
+          <div class="review-card">
+            <img src="img/av2.png" alt="Reseña 2" />
+            <p>
+              <i
+                >🌟🌟🌟🌟 <br />
+                "Excelente servicio de Proyecto Córdoba. Nos llevaron a los
+                mejores lugares turísticos y nos dieron una gran cantidad de
+                información interesante sobre la historia y la cultura local.
+                ¡Muy recomendable!" - Romina P.
+              </i>
+            </p>
+          </div>
+          <div class="review-card">
+            <img src="img/av3.png" alt="Reseña 3" />
+            <p>
+              <i
+                >🌟🌟🌟🌟 <br />
+                "Gracias a la empresa de turismo en Córdoba, pudimos ver los
+                lugares más hermosos de la ciudad. El guía fue muy profesional y
+                amable, y nos hizo sentir cómodos en todo momento. ¡Los volvería
+                a elegir sin dudarlo!" - Luis G.</i
+              >
+            </p>
+          </div>
+          <div class="review-card">
+            <img src="img/av4.png" alt="Reseña 4" />
+            <p>
+              <i
+                >🌟🌟🌟🌟 <br />
+                "Gracias a Proyecto Córdoba, pudimos ver los lugares más
+                hermosos de la ciudad. El guía fue muy profesional y amable, y
+                nos hizo sentir cómodos en todo momento. ¡Los volvería a elegir
+                sin dudarlo!" - Laura G.</i
+              >
+            </p>
+          </div>
+          <div class="review-card">
+            <img src="img/av5.png" alt="Reseña 5" />
+            <p>
+              <i
+                >🌟🌟🌟🌟 <br />
+                "Proyecto Córdoba nos organizó un tour personalizado que se
+                adaptó a nuestras necesidades y preferencias. El guía fue muy
+                flexible y amable, y nos mostró los rincones más encantadores de
+                la ciudad. ¡Muy recomendable!" - Paula M.</i
+              >
+            </p>
+          </div>
+          <div class="review-card">
+            <img src="img/av6.png" alt="Reseña 6" />
+            <p>
+              <i
+                >🌟🌟🌟🌟 <br />
+                "Proyecto Córdoba nos ofreció un servicio de alta calidad y nos
+                hizo sentir como en casa. El guía era muy conocedor y nos mostró
+                los lugares más emblemáticos de la ciudad. ¡Los recomiendo sin
+                dudarlo!" - Mauro P.</i
+              >
+            </p>
+          </div>
+        </div>
+        <!-- Agrega más tarjetas de reseña aquí -->
       </section>
-      <section class="card">
-        <h3>Fauna:</h3>
-        <img src="img/fauna.jpg" alt="Fauna" />
-        <p>
-          La fauna de Córdoba, Argentina, es diversa y fascinante. Desde el
-          majestuoso cóndor andino en las sierras hasta el sigiloso puma en
-          los bosques, cada rincón alberga vida única. En las llanuras, el
-          guanaco y el ñandú deambulan libremente, mientras que aves como el
-          cardenal y el hornero llenan el aire con su canto. Las serpientes,
-          como la yarará y el coral, completan este ecosistema, recordándonos
-          la riqueza y la intriga de la fauna cordobesa.
-        </p>
-      </section>
-      <section class="card">
-        <h3>Turismo:</h3>
-        <img src="img/turismo.jpg" alt="Turismo" />
-        <p>
-          Córdoba, Argentina, un destino turístico cautivador con historia,
-          naturaleza y cultura. Desde las imponentes Sierras hasta las
-          encantadoras ciudades coloniales como Villa General Belgrano, cada
-          lugar ofrece una experiencia única. Ruinas jesuíticas, actividades
-          al aire libre y gastronomía variada esperan a los visitantes en esta
-          tierra de hospitalidad cálida y auténtica esencia argentina.
-        </p>
-      </section>
-      <section class="card">
-        <h3>Pesca:</h3>
-        <img src="img/pesca.jpg" alt="Pesca" />
-        <p>
-          En Córdoba, Argentina, la pesca es una experiencia única. Desde la
-          emoción de atrapar truchas en el Río de los Espinillos hasta la
-          calma de pescar dorados en el embalse San Roque, cada lugar ofrece
-          oportunidades únicas para conectar con la naturaleza. Con guías
-          expertos y una variedad de especies, la pesca en Córdoba promete
-          recuerdos duraderos y nuevas aventuras en cada lance.
-        </p>
-      </section>
-      <section class="card">
-        <h3>Arquitectura:</h3>
-        <img src="img/arquitectura.jpg" alt="Arquitectura" />
-        <p>
-          Los callejones empedrados y las fachadas encaladas de las ciudades
-          coloniales como Alta Gracia y Jesús María transportan a los
-          visitantes a épocas pasadas. La arquitectura colonial de Córdoba es
-          un testimonio vivo del legado histórico de la región, con iglesias
-          barrocas, casonas señoriales y antiguas estancias que narran las
-          historias de quienes las habitaron.
-        </p>
-      </section>
-      <section class="card">
-        <h3>Gastronomía:</h3>
-        <img src="img/gastronomia.jpg" alt="Gastronomia" />
-        <p>
-          La gastronomía de Córdoba es un festín para los sentidos, con platos
-          que fusionan las tradiciones criollas con influencias europeas e
-          indígenas. Desde el famoso asado argentino hasta las delicias
-          regionales como el locro y los tamales, cada bocado es una
-          experiencia que refleja la diversidad cultural y culinaria de la
-          provincia.
-        </p>
-      </section>
-      <section class="card">
-        <h3>Festivales y Eventos:</h3>
-        <img src="img/festivales.jpg" alt="Festivales" />
-        <p>
-          Córdoba es conocida por su vibrante escena cultural, que cobra vida
-          a través de festivales y eventos durante todo el año. Desde el
-          Festival Nacional de Doma y Folclore en Jesús María hasta la Fiesta
-          Nacional de la Masa Vienesa en Villa General Belgrano, hay
-          celebraciones para todos los gustos, que ofrecen música, danza,
-          gastronomía y diversión para toda la familia.
-        </p>
-      </section>
-      <section class="card">
-        <h3>Deportes:</h3>
-        <img src="img/deportes.jpg" alt="Deportes" />
-        <p>
-          Las Sierras de Córdoba son un paraíso para los amantes de los
-          deportes de aventura. Desde el parapente sobre el Valle de Punilla
-          hasta el senderismo en el Parque Nacional Quebrada del Condorito, la
-          provincia ofrece emocionantes actividades al aire libre para todos
-          los niveles de habilidad, rodeadas de paisajes impresionantes y una
-          naturaleza exuberante.
-        </p>
-      </section>
-      <section class="card">
-        <h3>Arte y Cultura:</h3>
-        <img src="img/arte.jpg" alt="Arte" />
-        <p>
-          Córdoba no solo es rica en historia, sino también en creatividad
-          contemporánea. Con una próspera escena artística que incluye
-          galerías de arte, espacios culturales alternativos y festivales de
-          cine y música, la provincia es un centro de expresión cultural que
-          atrae a artistas y creadores de todo el país y el mundo.
-        </p>
-      </section>
-    </div>
-  </main>
+    </main>
 
-  <footer>
-    <footer>
-      <p>Codo a Codo | Trabajo Práctico | Grupo 13 | 2024 &copy;</p>
-    </footer>
-  </footer>
-</body>
+  
+      <footer>
+        <p>Codo a Codo | Trabajo Práctico | Grupo 13 | 2024 &copy;</p>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
+  </body>
 </html>
